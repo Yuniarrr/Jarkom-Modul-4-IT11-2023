@@ -101,10 +101,16 @@ Berdasarkan penggabungan yang sudah dilakukan berikut adalah tree subnetting dar
 
 ![tree_CIDR](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/0903de34-73f9-44ee-a8ad-8296c16b0a42)
 
+### Hasil Pembagian Subnet
+
+Berdasarkan Tree, didpatkan pembagian subnet sebagai berikut
+
+![pembagian_subnet](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/b1042a1a-a9ee-4e94-97be-d0b34334a26f)
+
 
 ### Konfigurasi pada GNS
 
-
+sebentar masih aku rapiin di readme lain
 
 
 

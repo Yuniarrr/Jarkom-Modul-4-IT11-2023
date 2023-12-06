@@ -95,9 +95,15 @@ Kemudian berikut ini merupakan tabel subnetting berdasarkan penggabungan yang su
 
 ![image](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/3b38e96c-e96b-45f7-9242-0878c6717777)
 
-## Tree CIDR
+### Tree CIDR
+
+Berdasarkan penggabungan yang sudah dilakukan berikut adalah tree subnetting dari CIDR
+
+![tree_CIDR](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/0903de34-73f9-44ee-a8ad-8296c16b0a42)
+
 
 ### Konfigurasi pada GNS
+
 
 
 

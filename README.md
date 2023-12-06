@@ -11,11 +11,11 @@
 
 # Daftar Isi
 * [Topologi](#Topologi)
-* [CPT VLSM](#CPTVLSM)
-* [Tree VSLM](#TreeVSLM)
-* [GNS3 CIDR](#GNS3CIDR)
-* [Penggabungan CIDR](#PenggabunganCIDR)
-* [Tree CIDR](#TreeCIDR)
+* [CPT VLSM](#CPT-VLSM)
+* [Tree VSLM](#Tree-VSLM)
+* [GNS3 CIDR](#GNS3-CIDR)
+* [Penggabungan CIDR](#Penggabungan-CIDR)
+* [Tree CIDR](#Tree-CIDR)
   
 # Topologi
 Berikut adalah topologi dari soal yang akan kami buat di **Cicso Packet Tracer** dan **GNS3**

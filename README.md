@@ -110,6 +110,18 @@ Berdasarkan Tree, didpatkan pembagian subnet sebagai berikut
 
 ### Konfigurasi pada GNS
 
+#### Client
+
+- **Royal Capital**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.70.0.2
+	netmask 255.255.255.0
+	gateway 10.70.0.1
+```
+
 sebentar masih aku rapiin di readme lain
 
 

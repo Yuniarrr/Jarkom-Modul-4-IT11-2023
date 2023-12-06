@@ -98,27 +98,196 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
   ```
   
 * Stark
+
+  ```
+  Fa0: 10.69.24.118
+  Gateway: 10.69.24.117
+  Netmask: 255.255.255.252
+  ```
+  
 * Lugner
+
+  ```
+  Fa0/0: 10.69.24.122
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.8.1
+  Netmask: 255.255.252.0
+  Fa1/0: 10.69.22.1
+  Netmask: 255.255.255.0
+  ```
+  
 * TurkRegion
+
+  ```
+  Fa0: 10.69.8.2
+  Netmask: 255.255.252.0
+  ```
+  
 * GrobeForest
+
+  ```
+  Fa0: 10.69.22.2
+  Netmask: 255.255.255.0
+  ```
+  
 * Linie
+
+  ```
+  Fa0/0: 10.69.24.130
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.20.1
+  Netmask: 255.255.254.0
+  Fa1/0: 10.69.24.133
+  Netmask: 255.255.255.252
+  ```
+  
 * GranzChannel
+
+  ```
+  Fa0: 10.69.20.2
+  Gateway: 10.69.20.1
+  Netmask: 255.255.254.0
+  ```
+  
 * Lawine
+
+  ```
+  Fa0/0: 10.69.24.134
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.24.1
+  Netmask: 255.255.255.192
+  ```
+  
 * BredtRegion
+
+  ```
+  Fa0: 10.69.24.2
+  Gateway: 10.69.24.1
+  Netmask: 255.255.255.192
+  ```
+  
 * Heiter
+
+  ```
+  Fa0/0: 10.69.24.2
+  Netmask: 255.255.255.192
+  Fa0/1: 10.69.16.1
+  Netmask: 255.255.252.0
+  ```
+  
 * Sein
+
+  ```
+  Fa0: 10.69.16.2
+  Gateway: 10.69.16.1
+  Netmask: 255.255.252.0
+  ```
+  
 * RiegelCanyon
+
+  ```
+  Fa0: 10.69.16.3
+  Gateway: 10.69.16.1
+  Netmask: 255.255.252.0
+  ```
+  
 * Ricther
+
+  ```
+  Fa0: 10.69.24.106
+  Gateway: 10.69.24.105
+  Netmask: 255.255.255.248
+  ```
+  
 * Revolte
+
+  ```
+  Fa0: 10.69.24.107
+  Gateway: 10.69.24.105
+  Netmask: 255.255.255.248
+  ```
+  
 * Frieren
+
+  ```
+  Fa0/0: 10.69.24.138
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.24.65
+  Netmask: 255.255.255.224
+  Fa1/0: 10.69.24.141
+  Netmask: 255.255.255.252
+  ```
+  
 * LakeKorridor
+
+  ```
+  Fa0: 10.69.24.66
+  Gateway: 10.69.24.65
+  Netmask: 255.255.255.224
+  ```
+  
 * Flamme
+
+  ```
+  Fa0/0: 10.69.24.142
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.24.146
+  Netmask: 255.255.255.252
+  Fa1/0: 10.69.12.1
+  Netmask: 255.255.252.0
+  Fa1/1: 10.69.24.149
+  Netmask: 255.255.255.252
+  ```
+  
 * Fern
+
+  ```
+  Fa0/0: 10.69.24.145
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.0.1
+  Netmask: 255.255.258.0
+  ```
+  
 * LaubHills
+
+  ```
+  Fa0: 10.69.0.2
+  Gateway: 10.69.0.1
+  Netmask: 255.255.248.0
+  ```
+  
 * AppetitRegion
+
+  ```
+  Fa0: 10.69.0.3
+  Gateway: 10.69.0.1
+  Netmask: 255.255.248.0
+  ```
+  
 * RohrRoad
+
+  ```
+  Fa0: 10.69.12.2
+  Gateway: 10.69.12.1
+  Netmask: 255.255.252.0
+  ```
+  
 * Himmel
+
+  ```
+  Fa0/0: 10.69.24.150
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.24.97
+  Netmask: 255.255.255.248
+  ```
+  
 * SchwerMountains
+
+  ```
+  Fa0: 10.69.24.98
+  Gateway: 10.69.24.97
+  Netmask: 255.255.255.248
+  ```
 
 # GNS3 CIDR
 ### Topologi GNS3

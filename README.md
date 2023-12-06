@@ -41,6 +41,10 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
 
 ![vlsm-modul-4 drawio](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/88996914/bb6d1d8a-f918-4b43-aff4-a63fe322e8ab)
 
+## Pembagian IP pada VLSM
+
+![pembagian ip vlsm](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/88996914/51ca2915-1cfc-4bfb-b8ab-fb084af964eb)
+
 ## Konfigurasi pada VLSM
 
 # GNS3 CIDR

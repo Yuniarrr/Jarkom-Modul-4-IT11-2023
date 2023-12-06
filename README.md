@@ -233,6 +233,380 @@ iface eth0 inet static
 	gateway 10.71.0.17
 ```
 
+#### **Gateway**
+
+- **Aura**
+
+```
+auto eth0
+iface eth0 inet dhcp
+
+#A4
+auto eth1
+iface eth1 inet static
+  address 10.70.1.2
+  netmask 255.255.255.252
+
+#A7
+auto eth2
+iface eth2 inet static
+  address 10.69.128.1
+  netmask 255.255.255.252
+
+#A14
+auto eth3
+iface eth3 inet static
+  address 10.71.128.2
+  netmask 255.255.255.252
+```
+
+- **Denken**
+
+```
+auto eth0
+iface eth0 inet static
+  address 10.70.1.1
+  netmask 255.255.255.252
+
+#A1
+auto eth1
+iface eth1 inet static
+  address 10.70.0.1
+  netmask 255.255.255.0
+```
+
+- **Eisen**
+
+```
+#A7
+auto eth0
+iface eth0 inet static
+  address 10.69.128.2
+  netmask 255.255.255.252
+
+#A5
+auto eth1
+iface eth1 inet static
+  address 10.69.16.1
+  netmask 255.255.255.252
+
+#A6
+auto eth2
+iface eth2 inet static
+  address 10.69.8.1
+  netmask 255.255.255.252
+
+#A8
+auto eth3
+iface eth3 inet static
+  address 10.69.48.1
+  netmask 255.255.255.252
+
+#A13
+auto eth4
+iface eth4 inet static
+  address 10.69.64.1
+  netmask 255.255.255.248
+```
+
+- **Fern**
+
+```
+#Fern
+#A17
+auto eth0
+iface eth0 inet static
+  address 10.71.16.2
+  netmask 255.255.255.252
+
+#A18
+auto eth1
+iface eth1 inet static
+  address 10.71.8.1
+  netmask 255.255.248.0
+```
+
+- **Flamme**
+
+```
+#Flamme
+#A16
+auto eth0
+iface eth0 inet static
+  address 10.71.32.2
+  netmask 255.255.255.252
+
+#A19
+auto eth1
+iface eth1 inet static
+  address 10.71.0.1
+  netmask 255.255.255.252
+
+#A17
+auto eth2
+iface eth2 inet static
+  address 10.71.16.1
+  netmask 255.255.255.252
+
+#A21
+auto eth3
+iface eth3 inet static
+  address 10.71.0.17
+  netmask 255.255.252.0
+```
+
+- **Frieren**
+
+```
+#Frieren
+#A14
+auto eth0
+iface eth0 inet static
+  address 10.71.128.3
+  netmask 255.255.255.252
+
+#A15
+auto eth1
+iface eth1 inet static
+  address 10.71.64.1
+  netmask 255.255.255.224
+
+#A4
+auto eth2
+iface eth2 inet static
+  address 10.71.32.1
+  netmask 255.255.255.252
+```
+
+- **Heiter**
+
+```
+#A11
+auto eth0
+iface eth0 inet static
+	address 10.69.40.3
+	netmask 255.255.255.252
+
+#A12
+auto eth1
+iface eth1 inet static
+  address 10.69.36.1
+  netmask 255.255.252.0
+```
+
+- **Himmel**
+
+```
+#A19
+auto eth0
+iface eth0 inet static
+  address 10.71.0.2
+  netmask 255.255.255.252
+
+#A20
+auto eth1
+iface eth1 inet static
+  address 10.71.0.5
+  netmask 255.255.255.248
+```
+
+- **Lawine**
+
+```
+#A10
+auto eth0
+iface eth0 inet static
+  address 10.69.32.2
+  netmask 255.255.255.252
+
+#A11
+auto eth1
+iface eth1 inet static
+  address 10.69.40.1
+  netmask 255.255.255.252
+```
+
+- **Linie**
+
+```
+#A8
+auto eth0
+iface eth0 inet static
+  address 10.69.48.2
+  netmask 255.255.255.252
+
+#A9
+auto eth1
+iface eth1 inet static
+  address 10.69.34.1
+  netmask 255.255.254.0
+
+#A10
+auto eth2
+iface eth2 inet static
+  address 10.69.32.1
+  netmask 255.255.255.252
+```
+
+- **Lugner**
+
+```
+#A6
+auto eth0
+iface eth0 inet static
+  address 10.69.8.2
+  netmask 255.255.255.252
+
+#A2
+auto eth1
+iface eth1 inet static
+  address 10.69.0.1
+  netmask 255.255.252.0
+
+#A3
+auto eth2
+iface eth2 inet static
+  address 10.69.4.1
+  netmask 255.255.255.0
+```
+
+#### **Server**
+
+- **Stark**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.16.2
+	netmask 255.255.255.252
+	gateway 10.69.16.1
+```
+
+- **Sein**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.36.2
+	netmask 255.255.252.0
+	gateway 10.69.36.1
+```
+
+- **Revolte**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.64.2
+	netmask 255.255.255.248
+	gateway 10.69.64.1
+```
+
+- **Reichter**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.64.3
+	netmask 255.255.255.248
+	gateway 10.69.64.1
+```
+
+### **Routing**
+
+Kemudian Konfigurasi routing pada terminal dari tiap gateway
+
+- **Denken**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.70.1.2
+```
+
+- **Heiter**
+
+```
+route add -net 10.69.36.0 netmask 255.255.252.0 gw 10.69.36.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.69.40.1
+```
+
+- **Lawine**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.69.32.1
+route add -net 10.69.36.0 netmask 255.255.252.0 gw 10.69.40.3
+```
+
+- **Himmel**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.71.0.1
+```
+
+- **Aura**
+
+```
+route add -net 10.70.0.0 netmask 255.255.255.0 gw 10.70.1.1
+route add -net 10.69.0.0 netmask 255.255.252.0 gw 10.69.128.2
+route add -net 10.69.4.0 netmask 255.255.255.0 gw 10.69.128.2
+route add -net 10.69.34.0 netmask 255.255.254.0 gw 10.69.128.2
+route add -net 10.69.36.0 netmask 255.255.252.0 gw 10.69.128.2
+route add -net 10.69.40.0 netmask 255.255.255.252 gw 10.69.128.2
+route add -net 10.69.16.0 netmask 255.255.255.252 gw 10.69.128.2
+route add -net 10.69.64.0 netmask 255.255.255.248 gw 10.69.128.2
+route add -net 10.71.64.0 netmask 255.255.255.224 gw 10.71.128.3
+route add -net 10.71.8.0 netmask 255.255.248.0 gw 10.71.128.3
+route add -net 10.71.0.16 netmask 255.255.252.0 gw 10.71.128.3
+route add -net 10.71.0.4 netmask 255.255.252.0 gw 10.71.128.3
+```
+
+- **Eisen**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.69.128.1
+route add -net 10.69.0.0 netmask 255.255.252.0 gw 10.69.8.2
+route add -net 10.69.4.0 netmask 255.255.255.0 gw 10.69.8.2
+route add -net 10.69.34.0 netmask 255.255.254.0 gw 10.69.48.2
+```
+
+- **Frieren**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.71.128.2
+route add -net 10.71.8.0 netmask 255.255.248.0 gw 10.71.32.2
+route add -net 10.71.0.16 netmask 255.255.252.0 gw 10.71.32.2
+route add -net 10.71.0.4 netmask 255.255.255.248 gw 10.71.32.2
+```
+
+- **Lugner**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.69.8.1
+```
+
+- **Fern**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.71.16.1
+```
+
+- **Linie**
+
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.69.48.1
+route add -net 10.69.36.0 netmask 255.255.252.0 gw 10.69.32.1
+route add -net 10.69.40.0 netmask 255.255.255.252 gw 10.69.32.1
+route add -net 10.69.36.0 netmask 255.255.252.0 gw 10.69.48.1
+route add -net 10.69.40.0 netmask 255.255.255.252 gw 10.69.48.1
+```
+
+- **Flamme**
+
+```
+route add -net 10.71.8.0 netmask 255.255.248.0 gw 10.71.16.2
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.71.32.1
+route add -net 10.71.0.4 netmask 255.255.255.248 gw 10.71.0.2
+```
+
 
 sebentar masih aku rapiin di readme lain
 

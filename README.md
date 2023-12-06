@@ -25,7 +25,7 @@ Berikut adalah topologi dari soal yang akan kami buat di **Cicso Packet Tracer**
 
 ![Topologi_Soal](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/1a020418-2d0c-44a6-8c17-94a103bcaeb1)
 
-Berikut adalah topologi yang kami gunakan, disini kami menggunakan topologi yang sama pada **CPT: VSLM** dan **GNS#: CIDR**
+Berikut adalah topologi yang kami gunakan, disini kami menggunakan topologi yang sama pada **CPT: VSLM** dan **GNS3: CIDR**
 
 ![A](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/175b80b0-5bf7-4b16-83ab-deb7ff9bc1f8)
 

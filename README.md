@@ -13,12 +13,12 @@
 * [Topologi](#Topologi)
 * [CPT VLSM](#CPT-VLSM)
 * [Tree VSLM](#Tree-VSLM)
+* [Pembagian IP pada VLSM](#Pembagian-IP-pada-VLSM)
 * [Konfigurasi pada VLSM](#Konfigurasi-pada-VLSM)
 * [GNS3 CIDR](#GNS3-CIDR)
 * [Penggabungan CIDR](#Penggabungan-CIDR)
 * [Tree CIDR](#Tree-CIDR)
 * [Konfigurasi pada GNS3](#Konfigurasi-pada-GNS3)
-
   
 # Topologi
 Berikut adalah topologi dari soal yang akan kami buat di **Cicso Packet Tracer** dan **GNS3**
@@ -34,7 +34,6 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
 
 ![Netmask_umum](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/e42fb609-72a8-4562-88a6-ed20e74fb379)
 
-
 # CPT VLSM
 
 ## Tree VSLM
@@ -46,6 +45,80 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
 ![pembagian ip vlsm](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/88996914/51ca2915-1cfc-4bfb-b8ab-fb084af964eb)
 
 ## Konfigurasi pada VLSM
+
+* Aura
+
+  ```
+  Fa0/1: 10.69.24.113
+  Netmask: 255.255.255.252
+  Fa1/0: 10.69.24.125
+  Netmask: 255.255.255.252
+  Fa1/1: 10.69.24.137
+  Netmask: 255.255.255.252
+  ```
+  
+* Denken
+
+  ```
+  Fa0/0: 10.69.24.114
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.23.1
+  Netmask: 255.255.255.0
+  ```
+  
+* RoyalCapital
+
+  ```
+  Fa0: 10.69.23.2
+  Gateway: 10.69.23.1
+  Netmask: 255.255.255.0
+  ```
+  
+* WilleRegion
+
+  ```
+  Fa0: 10.69.23.3
+  Gateway: 10.69.23.1
+  Netmask: 255.255.255.0
+  ```
+  
+* Eisen
+
+  ```
+  Fa0/0: 10.69.24.126
+  Netmask: 255.255.255.252
+  Fa0/1: 10.69.24.117
+  Netmask: 255.255.255.252
+  Eth1/2: 10.69.24.121
+  Netmask: 255.255.255.252
+  Eth1/1: 10.69.24.129
+  Netmask: 255.255.255.252
+  Eth1/0: 10.69.24.105
+  Netmask: 255.255.255.248
+  ```
+  
+* Stark
+* Lugner
+* TurkRegion
+* GrobeForest
+* Linie
+* GranzChannel
+* Lawine
+* BredtRegion
+* Heiter
+* Sein
+* RiegelCanyon
+* Ricther
+* Revolte
+* Frieren
+* LakeKorridor
+* Flamme
+* Fern
+* LaubHills
+* AppetitRegion
+* RohrRoad
+* Himmel
+* SchwerMountains
 
 # GNS3 CIDR
 ### Topologi GNS3

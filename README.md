@@ -37,6 +37,11 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
 ## Tree VSLM
 
 # GNS3 CIDR
+### Topologi GNS3
+
+![gns3](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/b94be8ca-362b-4850-936f-a802c8b66492)
+
+
 ## Penggabungan CIDR
 
 Sebelum melakukan subnetting pada ip, dilakukan penggabungan terlebih dahulu. Berikut ini merupakan langkah dalam penggabungan tersebut
@@ -109,6 +114,12 @@ Berdasarkan Tree, didpatkan pembagian subnet sebagai berikut
 
 
 ### Konfigurasi pada GNS
+
+Konfogurasi pada bagian `Network Configuration` seperti berikut
+
+
+![image](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/5ae757f6-3a5e-4ec0-ae1d-4b9828549a8d)
+
 
 #### Client
 
@@ -514,7 +525,10 @@ iface eth0 inet static
 
 ### **Routing**
 
-Kemudian Konfigurasi routing pada terminal dari tiap gateway
+Kemudian Konfigurasi routing pada terminal dari tiap gateway seperti pada contoh berikut
+
+![eisen_route](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/6373d1d1-21a7-414a-a35b-e6235aedeb16)
+
 
 - **Denken**
 
@@ -607,8 +621,22 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.71.32.1
 route add -net 10.71.0.4 netmask 255.255.255.248 gw 10.71.0.2
 ```
 
+### PING
 
-sebentar masih aku rapiin di readme lain
+Berikut ini merupakan salah satu bentuk bukti apabila konfigurasi sudah berhasil dengan uji ping.
+
+`Aura` -> `Royal Capital` 
+
+![Aura](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/abbcdd88-e757-42fe-8850-ef67257cb003)
+
+`Aura` -> `Stark`
+
+![image](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/b42edd28-dbad-462a-9ebf-c8b872e7441d)
+
+`Royal Capital` -> `Stark`
+
+![image](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/37203ab6-8e55-4295-9075-1c47d13b52ae)
+
 
 
 

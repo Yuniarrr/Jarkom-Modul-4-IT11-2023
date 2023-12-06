@@ -115,12 +115,124 @@ Berdasarkan Tree, didpatkan pembagian subnet sebagai berikut
 - **Royal Capital**
 
 ```
+  auto eth0
+  iface eth0 inet static
+  	address 10.70.0.2
+  	netmask 255.255.255.0
+  	gateway 10.70.0.1
+```
+
+- **Wille Region**
+
+```
 auto eth0
 iface eth0 inet static
-	address 10.70.0.2
+	address 10.70.0.3
 	netmask 255.255.255.0
 	gateway 10.70.0.1
 ```
+
+- **Turk Region**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.0.2
+	netmask 255.255.252.0
+	gateway 10.69.0.1
+```
+
+- **Grobe Forest**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.4.2
+	netmask 255.255.255.0
+	gateway 10.69.4.1
+```
+
+- **Granz Channel**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.34.2
+	netmask 255.255.254.0
+	gateway 10.69.34.1
+
+```
+
+- **Bred Region**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.40.2
+	netmask 255.255.255.252
+	gateway 10.69.40.1
+```
+
+- **Riegel Canyon**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.69.36.3
+	netmask 255.255.252.0
+	gateway 10.69.36.1
+```
+
+- **Lake Corridor**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.71.64.2
+	netmask 255.255.255.224
+	gateway 10.71.64.1
+```
+
+- **Appetit Region**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.71.8.2
+	netmask 255.255.248.0
+	gateway 10.71.8.1
+```
+
+- **Laub Hills**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.71.8.3
+	netmask 255.255.248.0
+	gateway 10.71.8.1
+```
+
+- **Schwer Mountains**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.71.0.6
+	netmask 255.255.255.248
+	gateway 10.71.0.5
+```
+
+- **Rohr Road**
+
+```
+auto eth0
+iface eth0 inet static
+	address 10.71.0.18
+	netmask 255.255.252.0
+	gateway 10.71.0.17
+```
+
 
 sebentar masih aku rapiin di readme lain
 

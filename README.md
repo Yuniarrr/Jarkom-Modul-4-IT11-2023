@@ -13,9 +13,12 @@
 * [Topologi](#Topologi)
 * [CPT VLSM](#CPT-VLSM)
 * [Tree VSLM](#Tree-VSLM)
+* [Konfigurasi pada VLSM](#Konfigurasi-pada-VLSM)
 * [GNS3 CIDR](#GNS3-CIDR)
 * [Penggabungan CIDR](#Penggabungan-CIDR)
 * [Tree CIDR](#Tree-CIDR)
+* [Konfigurasi pada GNS3](#Konfigurasi-pada-GNS3)
+
   
 # Topologi
 Berikut adalah topologi dari soal yang akan kami buat di **Cicso Packet Tracer** dan **GNS3**
@@ -35,6 +38,8 @@ Kemudian Berikut adalah daftar Netmask berdasarkan topologi yang sudah dibuat
 # CPT VLSM
 
 ## Tree VSLM
+
+## Konfigurasi pada VLSM
 
 # GNS3 CIDR
 ### Topologi GNS3
@@ -113,7 +118,7 @@ Berdasarkan Tree, didpatkan pembagian subnet sebagai berikut
 ![pembagian_subnet](https://github.com/Yuniarrr/Jarkom-Modul-4-IT11-2023/assets/107184933/b1042a1a-a9ee-4e94-97be-d0b34334a26f)
 
 
-### Konfigurasi pada GNS
+### Konfigurasi pada GNS3
 
 Konfogurasi pada bagian `Network Configuration` seperti berikut
 
